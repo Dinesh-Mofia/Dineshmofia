@@ -2,13 +2,13 @@
 int main()
 {
     char c;
-    printf("Enter a character: ");
+    printf("Enter the letter: ");
     scanf("%c",&c);
     if( (c>='a' && c<='z') || (c>='A' && c<='Z'))
     {
-        printf("%c is an alphabet.",c);
+        printf("%c is an alpha",c);
     else
-        printf("%c is not an alphabet.",c);
+        printf("%c is not an alpha",c);
     }
     return 0;
 }
