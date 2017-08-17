@@ -1,14 +1,13 @@
 #include <stdio.h>
-int main()
+void main()
 {
-    char c;
+    char b;
     printf("Enter the letter: ");
-    scanf("%c",&c);
-    if( (c>='a' && c<='z') || (c>='A' && c<='Z'))
+    scanf("%c",&b);
+    if( (b>='a' && b<='z') || (b>='A' && b<='Z'))
     {
-        printf("%c is an alpha",c);
+        printf("%c is an alph",b);
     else
-        printf("%c is not an alpha",c);
+        printf("%c is not an alph",b);
     }
-    return 0;
 }
